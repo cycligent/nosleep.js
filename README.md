@@ -6,13 +6,9 @@ Check out the [live demo](https://richtr.github.io/NoSleep.js/example) in any An
 
 ## Installation
 
-This library is available on [Bower](http://bower.io/) as **nosleep**.
-
-`bower install nosleep`
-
 This package is published to npm as **nosleep.js** and can be installed with:
 
-`npm install nosleep.js`
+`npm install @uriopass/nosleep.js`
 
 Alternatively, you can manually add [NoSleep.js](https://github.com/richtr/NoSleep.js/blob/master/dist/NoSleep.js) to your project (or the [minified version](https://github.com/richtr/NoSleep.js/blob/master/dist/NoSleep.min.js)).
 
@@ -32,7 +28,7 @@ A new build of [NoSleep.js](https://github.com/richtr/NoSleep.js/blob/master/dis
 Import ES6 module:
 
 ```javascript
-import NoSleep from 'nosleep.js';
+import NoSleep from '@uriopass/nosleep.js';
 ```
 
 Create a new NoSleep object and then enable or disable it when needed.
@@ -64,16 +60,16 @@ To disable wake lock:
 noSleep.disable();
 ```
 
-See [example/index.html](https://github.com/richtr/NoSleep.js/blob/master/example/index.html) (and the [live demo](https://richtr.github.io/NoSleep.js/example)) for more information.
+See [example/index.html](https://github.com/Uriopass/NoSleep.js/blob/master/example/index.html) (and the [live demo](https://richtr.github.io/NoSleep.js/example)) for more information.
 
 ## Feedback
 
-If you find any bugs or issues please report them on the [NoSleep.js Issue Tracker](https://github.com/richtr/NoSleep.js/issues).
+If you find any bugs or issues please report them on the [NoSleep.js Issue Tracker](https://github.com/Uriopass/NoSleep.js/issues).
 
-If you would like to contribute to this project please consider [forking this repo](https://github.com/richtr/NoSleep.js/fork), making your changes and then creating a new [Pull Request](https://github.com/richtr/NoSleep.js/pulls) back to the main code repository.
+If you would like to contribute to this project please consider [forking this repo](https://github.com/Uriopass/NoSleep.js/fork), making your changes and then creating a new [Pull Request](https://github.com/Uriopass/NoSleep.js/pulls) back to the main code repository.
 
 ## License
 
 MIT. Copyright (c) [Rich Tibbett](https://twitter.com/_richtr).
 
-See the [LICENSE](https://github.com/richtr/NoSleep.js/blob/master/LICENSE) file.
+See the [LICENSE](https://github.com/Uriopass/NoSleep.js/blob/master/LICENSE) file.

@@ -6,11 +6,9 @@ Check out the [live demo](https://richtr.github.io/NoSleep.js/example) in any An
 
 ## Installation
 
-This package is published to npm as **nosleep.js** and can be installed with:
+This package is published to npm as **@uriopass/nosleep.js** and can be installed with:
 
 `npm install @uriopass/nosleep.js`
-
-Alternatively, you can manually add [NoSleep.js](https://github.com/richtr/NoSleep.js/blob/master/dist/NoSleep.js) to your project (or the [minified version](https://github.com/richtr/NoSleep.js/blob/master/dist/NoSleep.min.js)).
 
 ## Build from source
 
@@ -21,8 +19,6 @@ Install all development dependencies with:
 To build this library run:
 
 `npm run build`
-
-A new build of [NoSleep.js](https://github.com/richtr/NoSleep.js/blob/master/dist/NoSleep.js) and [NoSleep.min.js](https://github.com/richtr/NoSleep.js/blob/master/dist/NoSleep.min.js) will now be available in the `/dist` directory.
 
 ## Usage
 Import ES6 module:

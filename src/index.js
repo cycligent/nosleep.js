@@ -19,7 +19,8 @@ const oldIOS = () =>
 // Detect native Wake Lock API support (Samsung Browser supports it but cannot use it)
 const nativeWakeLock = () =>
   "wakeLock" in navigator &&
-  window.navigator.userAgent.indexOf("Samsung") === -1;
+  window.navigator.userAgent.indexOf("Samsung") === -1 &&
+  window.navigator.userAgent.indexOf("Apple") === -1;
 
 class NoSleep {
   constructor() {
